@@ -117,7 +117,10 @@ p {
 .header {
   height: 100%;
   min-height: 0px;
-  padding: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 0px;
 }
 
 .slider {
@@ -294,20 +297,19 @@ p {
 }
 
 .row {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .about-photo-2 {
   height: 80vh;
   background-image: url('../images/londonwall2.jpg');
-  background-position: 50% 50%;
+  background-position: 0% 100%;
   background-size: cover;
 }
 
 .section6 {
-  margin-bottom: 60px;
-  padding-right: 10px;
-  padding-left: 10px;
+  margin-bottom: 0px;
+  padding: 40px 140px;
 }
 
 .section7_about {
@@ -347,7 +349,7 @@ p {
 }
 
 .footer {
-  position: relative;
+  position: static;
   left: 0px;
   right: 0px;
   bottom: 0px;
@@ -357,7 +359,7 @@ p {
 }
 
 .footer-content {
-  padding: 50px;
+  padding: 50px 60px;
   background-color: #f5f5f5;
 }
 
@@ -382,8 +384,8 @@ p {
 
 .services-1 {
   overflow: hidden;
-  height: auto;
-  min-height: 400px;
+  height: 70vh;
+  min-height: auto;
   padding: 60px 50px;
   background-color: #f5f5f5;
   -webkit-transform: translate(0px, 0px);
@@ -400,8 +402,8 @@ p {
 }
 
 .services-2 {
-  height: auto;
-  min-height: 400px;
+  height: 70vh;
+  min-height: auto;
   padding: 60px 50px;
   background-color: #f5f5f5;
   -webkit-transition: all 750ms ease;
@@ -415,8 +417,8 @@ p {
 }
 
 .services-3 {
-  height: auto;
-  min-height: 400px;
+  height: 70vh;
+  min-height: auto;
   padding: 60px 50px;
   background-color: #f5f5f5;
   -webkit-transition: all 750ms ease;
@@ -551,8 +553,10 @@ p {
 }
 
 .section3 {
-  padding-right: 20px;
-  padding-left: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-right: 140px;
+  padding-left: 140px;
 }
 
 .text-bold {
@@ -638,7 +642,7 @@ p {
 }
 
 .section2 {
-  padding: 80px 20px;
+  padding: 80px 140px;
   text-align: center;
 }
 
@@ -654,8 +658,8 @@ p {
 }
 
 .section5 {
-  padding-right: 20px;
-  padding-left: 20px;
+  padding: 80px 100px;
+  text-align: center;
 }
 
 .div_section5_about {
@@ -733,6 +737,38 @@ p {
   grid-template-rows: auto;
 }
 
+.portfolio_grid {
+  margin-right: 20px;
+  margin-left: 20px;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.portfolio_image {
+  background-image: url('../images/cities_green_infrastructure.png');
+  background-position: 0% 56%;
+  background-size: 135%;
+}
+
+.div_image1 {
+  background-image: url('../images/ca01d459c5f4429da3c1132eab6e773a.jpeg');
+  background-position: 0% 70%;
+  background-size: cover;
+}
+
+.grid-3 {
+  -ms-grid-columns: 0.4fr 1fr;
+  grid-template-columns: 0.4fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.insta_para {
+  color: #000;
+  font-size: 16px;
+  font-weight: 300;
+}
+
 html.w-mod-js *[data-ix="title-slide-in-1"] {
   opacity: 0;
 }
@@ -789,6 +825,15 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
   }
   .button {
     margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .header {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0px;
   }
   .slide-container {
     width: 85%;
@@ -838,15 +883,15 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
     text-align: center;
   }
   .left-column {
-    height: 70vh;
+    height: auto;
   }
   .right-column {
-    height: 70vh;
+    height: auto;
   }
   .grey-box {
     height: 70vh;
     min-height: auto;
-    padding: 50px 30px;
+    padding: 80px 30px 50px;
   }
   .about-photo {
     height: 70vh;
@@ -854,31 +899,43 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
   .about-photo-2 {
     height: 70vh;
   }
+  .section6 {
+    margin-bottom: 0px;
+    padding: 40px 20px;
+  }
   .section7_about {
     margin-bottom: 0px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
+  .footer {
+    position: relative;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+    z-index: -100;
+    margin: 0px 20px 20px;
+    padding: 0px;
+  }
+  .footer-content {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
   .services-photo {
     height: 400px;
   }
   .services-1 {
-    height: auto;
-    padding-top: 0px;
-    padding-right: 20px;
-    padding-left: 20px;
+    height: 62vh;
+    padding: 20px 20px 40px;
   }
   .services-2 {
-    height: auto;
-    padding-top: 0px;
-    padding-right: 20px;
-    padding-left: 20px;
+    height: 62vh;
+    padding: 20px 20px 40px;
   }
   .services-3 {
-    height: auto;
-    padding-top: 0px;
-    padding-right: 20px;
-    padding-left: 20px;
+    height: 62vh;
+    padding: 20px 20px 40px;
   }
   .break---quotes {
     padding-top: 30px;
@@ -913,24 +970,60 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
     font-size: 15px;
     line-height: 22px;
   }
+  .section3 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
   .heading-2 {
     font-size: 30px;
     line-height: 30px;
   }
   .section2 {
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding: 60px 80px 40px;
+  }
+  .section4 {
+    padding-bottom: 20px;
+  }
+  .section5 {
+    padding: 30px 60px 50px;
+    text-align: center;
+  }
+  .div_section5_about {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .svg_icon {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .paragraph-1 {
+    display: block;
   }
   .image_portfolio {
     height: 70vh;
     background-position: 5% 40%;
     background-size: cover;
   }
+  .portfolio_grid {
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+  .portfolio_image {
+    background-size: cover;
+  }
+  .div_image1 {
+    background-image: url('../images/ca01d459c5f4429da3c1132eab6e773a.jpeg');
+    background-position: 0% 70%;
+    background-size: cover;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .header {
-    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 0px;
   }
   .slide-container {
     margin-top: 300px;
@@ -969,7 +1062,7 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
   }
   .grey-box {
     height: auto;
-    min-height: 400px;
+    min-height: auto;
     margin-top: 0px;
     padding: 30px 20px;
   }
@@ -977,6 +1070,7 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
     display: block;
     height: auto;
     min-height: 400px;
+    background-position: 0% 0%;
   }
   .row {
     margin-top: 0px;
@@ -1003,13 +1097,15 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
     margin-bottom: 40px;
   }
   .footer {
+    position: static;
     top: auto;
-    margin-top: auto;
+    margin-top: 320px;
   }
   .footer-content {
     position: static;
+    display: block;
     height: auto;
-    margin-top: auto;
+    margin-top: 0px;
     padding: 20px;
     text-align: center;
   }
@@ -1061,14 +1157,22 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
     opacity: 1;
   }
   .section3 {
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .heading-2 {
+    text-align: center;
   }
   .heading-3 {
     line-height: 30px;
   }
   .section1_contact {
     padding-bottom: 0px;
+  }
+  .section2 {
+    padding-right: 60px;
+    padding-bottom: 40px;
+    padding-left: 60px;
   }
   .subheading {
     font-size: 15px;
@@ -1077,7 +1181,7 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
     padding-top: 0px;
   }
   .svg_icon {
-    margin-top: 20px;
+    margin-top: 0px;
   }
   .section1 {
     padding-bottom: 0px;
@@ -1091,12 +1195,16 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
   .heading-4 {
     font-size: 15px;
   }
+  .heading-5 {
+    text-align: center;
+  }
   .paragraph-1 {
     font-size: 15px;
     line-height: 22px;
     letter-spacing: -0.2px;
   }
   .image_portfolio {
+    display: block;
     height: 250px;
   }
   .grid {
@@ -1105,6 +1213,57 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
     grid-template-columns: 1fr;
     -ms-grid-rows: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
+  }
+  .portfolio_grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+  .portfolio_image {
+    height: 45vh;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-position: 0% 4%;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  .grid-2 {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 0.25fr 0.75fr;
+    grid-template-rows: 1fr 0.25fr 0.75fr;
+  }
+  .div_image1 {
+    min-height: 400px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-image: url('../images/ca01d459c5f4429da3c1132eab6e773a.jpeg');
+    background-position: 50% 70%;
+    background-size: cover;
+  }
+  .text_grid {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .grid-3 {
+    grid-template-areas: "." "Area";
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+  .insta_para {
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
   }
 }
 
@@ -1128,7 +1287,12 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
   }
   .header {
     height: 100%;
-    padding-top: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .slide-container {
     margin-top: 320px;
@@ -1156,7 +1320,7 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
     margin-top: 20px;
   }
   .grey-box {
-    margin-top: 0px;
+    margin-top: 10px;
     padding-bottom: 20px;
   }
   .about-photo {
@@ -1166,7 +1330,8 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
     margin-bottom: 0px;
   }
   .about-photo-2 {
-    height: 200px;
+    height: auto;
+    padding-bottom: 0px;
   }
   .section7_about {
     padding-bottom: 10px;
@@ -1175,7 +1340,11 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
     margin-top: 30px;
     padding-top: 30px;
   }
+  .footer {
+    margin-top: 340px;
+  }
   .footer-content {
+    margin-top: 0px;
     text-align: center;
   }
   .footer-text {
@@ -1190,6 +1359,7 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
   }
   .services-1 {
     margin-top: 0px;
+    padding-top: 20px;
   }
   .services-2 {
     margin-top: 0px;
@@ -1231,31 +1401,41 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
     line-height: 20px;
   }
   .section3 {
-    padding-top: 0px;
+    padding: 20px 20px 0px;
   }
   .heading-2 {
     font-size: 28px;
     line-height: 28px;
+    text-align: center;
+  }
+  .heading-2.green {
+    font-size: 26px;
+    line-height: 26px;
   }
   .heading-3 {
-    font-size: 28px;
-    line-height: 28px;
+    font-size: 26px;
+    line-height: 26px;
   }
   .section1_contact {
     padding-top: 20px;
   }
   .section2 {
-    padding: 40px 20px;
+    padding: 40px;
+  }
+  .section4 {
+    padding-left: 20px;
   }
   .section5 {
-    padding-top: 0px;
+    padding: 30px 40px;
   }
   .svg_icon {
     margin-top: 10px;
     margin-bottom: 10px;
   }
   .section1 {
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
   .row_portfolio {
     margin-bottom: 0px;
@@ -1271,6 +1451,7 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
   .heading-5 {
     font-size: 14px;
     line-height: 20px;
+    text-align: center;
   }
   .heading-6 {
     margin-bottom: 5px;
@@ -1282,6 +1463,25 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
   }
   .image_portfolio {
     height: 200px;
+  }
+  .portfolio_grid {
+    margin-right: 0px;
+    margin-left: 0px;
+    grid-auto-flow: column;
+  }
+  .portfolio_image {
+    height: 40vh;
+    background-position: 4% 10%;
+    background-size: 135%;
+  }
+  .text_grid {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .insta_para {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
   }
 }
 
