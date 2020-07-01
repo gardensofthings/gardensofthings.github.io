@@ -615,6 +615,7 @@ p {
 
 .heading-2 {
   color: #333;
+  font-size: 36px;
 }
 
 .heading-2.green {
@@ -624,21 +625,13 @@ p {
 .heading-3 {
   margin-top: 5px;
   margin-bottom: 5px;
-  color: #333;
-  font-size: 30px;
-  line-height: 34px;
-  letter-spacing: -1.8px;
-}
-
-.section1_contact {
-  height: 100%;
-  min-height: 0px;
-  padding: 20px;
-}
-
-.sectioin1_contact {
-  position: relative;
-  height: 100%;
+  font-family: Vollkorn, serif;
+  color: #fff;
+  font-size: 17px;
+  line-height: 22px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0px;
 }
 
 .section2 {
@@ -652,20 +645,8 @@ p {
   padding-left: 20px;
 }
 
-.subheading {
-  font-size: 16px;
-  font-weight: 400;
-}
-
 .section5 {
   padding: 80px 100px;
-  text-align: center;
-}
-
-.div_section5_about {
-  margin-right: auto;
-  margin-left: auto;
-  padding: 80px 20px;
   text-align: center;
 }
 
@@ -681,53 +662,14 @@ p {
   text-align: center;
 }
 
-.row_portfolio {
-  margin-bottom: 20px;
-}
-
 .heading-6 {
   color: #00bf6f;
   text-transform: lowercase;
 }
 
-.image_portfolio {
-  height: 80vh;
-  min-height: auto;
-  background-image: url('../images/cities_green_infrastructure.png');
-  background-position: 5% 55%;
-  background-size: 135%;
-  background-repeat: repeat;
-}
-
-.image {
-  background-color: #00bf6f;
-}
-
-.link-block {
-  background-image: url('../images/instagram.svg');
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-}
-
-.div-block {
-  background-image: url('../images/instagram.svg');
-  background-position: 50% 50%;
-  background-size: 75px;
-  background-repeat: no-repeat;
-}
-
-.image-2 {
-  padding-right: 10px;
-}
-
 .icon {
   margin-right: 10px;
   padding-right: 0px;
-}
-
-.image-3 {
-  margin-right: 30px;
 }
 
 .grid {
@@ -769,12 +711,8 @@ p {
   font-weight: 300;
 }
 
-.heading-2-copy {
+.heading-4 {
   color: #333;
-}
-
-.heading-2-copy.green {
-  color: #00bf6f;
 }
 
 html.w-mod-js *[data-ix="title-slide-in-1"] {
@@ -996,21 +934,12 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
     padding: 30px 60px 50px;
     text-align: center;
   }
-  .div_section5_about {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
   .svg_icon {
     margin-top: 0px;
     padding-top: 0px;
   }
   .paragraph-1 {
     display: block;
-  }
-  .image_portfolio {
-    height: 70vh;
-    background-position: 5% 40%;
-    background-size: cover;
   }
   .portfolio_grid {
     -ms-grid-rows: auto;
@@ -1023,10 +952,6 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
     background-image: url('../images/ca01d459c5f4429da3c1132eab6e773a.jpeg');
     background-position: 0% 70%;
     background-size: cover;
-  }
-  .heading-2-copy {
-    font-size: 30px;
-    line-height: 30px;
   }
 }
 
@@ -1178,16 +1103,10 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
   .heading-3 {
     line-height: 30px;
   }
-  .section1_contact {
-    padding-bottom: 0px;
-  }
   .section2 {
     padding-right: 60px;
     padding-bottom: 40px;
     padding-left: 60px;
-  }
-  .subheading {
-    font-size: 15px;
   }
   .section5 {
     padding-top: 0px;
@@ -1198,26 +1117,16 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
   .section1 {
     padding-bottom: 0px;
   }
-  .row_portfolio {
-    margin-bottom: 0px;
-  }
   .heading-1 {
     font-size: 44px;
   }
-  .heading-4-old {
-    font-size: 15px;
-  }
-  .heading-5 {
+  .heading5_old {
     text-align: center;
   }
   .paragraph-1 {
     font-size: 15px;
     line-height: 22px;
     letter-spacing: -0.2px;
-  }
-  .image_portfolio {
-    display: block;
-    height: 250px;
   }
   .grid {
     clear: left;
@@ -1275,12 +1184,6 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
   .insta_para {
     font-size: 15px;
     line-height: 22px;
-    text-align: center;
-  }
-  .heading-4-copy {
-    font-size: 15px;
-  }
-  .heading-2-copy {
     text-align: center;
   }
 }
@@ -1434,9 +1337,6 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
     font-size: 26px;
     line-height: 26px;
   }
-  .section1_contact {
-    padding-top: 20px;
-  }
   .section2 {
     padding: 40px;
   }
@@ -1455,18 +1355,11 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
     padding-right: 10px;
     padding-left: 10px;
   }
-  .row_portfolio {
-    margin-bottom: 0px;
-  }
   .heading-1 {
     font-size: 40px;
     line-height: 44px;
   }
-  .heading-4-old {
-    font-size: 12px;
-    line-height: 14px;
-  }
-  .heading-5 {
+  .heading5_old {
     font-size: 14px;
     line-height: 20px;
     text-align: center;
@@ -1478,9 +1371,6 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
     font-size: 14px;
     line-height: 20px;
     letter-spacing: -0.2px;
-  }
-  .image_portfolio {
-    height: 200px;
   }
   .portfolio_grid {
     margin-right: 0px;
@@ -1500,19 +1390,6 @@ html.w-mod-js *[data-ix="page-load-fade-in"] {
     font-size: 14px;
     line-height: 20px;
     text-align: center;
-  }
-  .heading-4-copy {
-    font-size: 12px;
-    line-height: 14px;
-  }
-  .heading-2-copy {
-    font-size: 28px;
-    line-height: 28px;
-    text-align: center;
-  }
-  .heading-2-copy.green {
-    font-size: 26px;
-    line-height: 26px;
   }
 }
 
